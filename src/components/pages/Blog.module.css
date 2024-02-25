@@ -1,0 +1,881 @@
+.blog_container{
+    background-color: #112536;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+.body_blog{
+    margin-top: 2em;
+    border: 2px solid #e07324;
+    border-radius: 23px;
+    height: 75em;
+    width: 100%;
+}
+.title_blog h2{
+    border: 2px solid #e07324;
+    border-radius: 14px;
+    color: #fff;
+    width: 11em;
+    justify-content: center;
+    padding: 0.6em;
+    display: flex;
+    margin: 5em 1em 1em 3em;
+    font-weight: bold;
+    background-color: #091E2F;
+    margin-bottom: 2em;
+    font-size: 1.3em ;
+}
+.info_competencia{
+    padding:1em 2em 0em 1em ;
+    background-color: #091E2F;
+    color: #fff;
+    margin-left: 3.5em;
+    border: 2px solid #e07324;
+    border-radius: 14px;
+    width: 38em;
+    height: 29em;
+}
+.li_conteudo {
+    border: 2px solid #e07324;
+    border-radius: 12px;
+    padding: 2em 1em 3em 0em;
+    margin-left: 1.2em;
+    width: 27em;
+}
+.li_conteudo li{
+    list-style-type: decimal;
+    padding: 0.1em;
+    text-align: justify;
+    font-size: 1.26em;
+    padding-left: 1em;
+}
+.info_competencia h2{
+    margin-left: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.title_post h2{
+    border: 2px solid #e07324;
+    border-radius: 14px;
+    color: #fff;
+    width: 11em;
+    justify-content: center;
+    padding: 0.6em;
+    display: flex;
+    font-weight: bold;
+    background-color: #091E2F;
+    font-size: 1.3em ;
+}
+.blog_bbb {
+    width: 1em;
+    height: 1em;
+    margin-left: 38em;
+}
+.blog_bbb img{
+    margin-top: -1em;
+    width: 17em;
+    height: 23em;
+}
+.post_conteudo{
+    height: 2.5em;
+}
+.post_conteudo h2{
+    margin-left: 1em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+.title_post_criado h2{
+    border: 2px solid #e07324;
+    border-radius: 14px;
+    color: #fff;
+    width: 11em;
+    justify-content: center;
+    padding: 0.6em;
+    display: flex;
+    margin: 5em 1em 1em 3em;
+    font-weight: bold;
+    background-color: #091E2F;
+    margin-bottom: 2em;
+    font-size: 1.3em ;
+
+}
+
+.li_conteudo_criado{
+    border: 2px solid #e07324;
+    border-radius: 12px;
+    padding: 1.5em 1em 3em 0em;
+    margin-left: 3.7em;
+    width: 21em;
+    height: 12em;
+    background-color: #433a31;
+}
+.li_conteudo_criado li{
+    color: #fff;
+    list-style-type: decimal;
+    padding: 0.1em;
+    text-align: justify;
+    font-size: 1.26em;
+    padding-left: 1em;
+}
+.posts2{
+    display: inline;
+
+}
+
+.title_post_criado2 h2{
+    border: 2px solid #e07324;
+    border-radius: 14px;
+    color: #fff;
+    width:11em;
+    justify-content: center;
+    padding: 0.6em;
+    display: flex;
+    margin: 5em 1em 1em 3em;
+    font-weight: bold;
+    background-color: #091E2F;
+    margin-bottom: 2em;
+    font-size: 1.3em ;
+    margin-left: 23em;
+    margin-top: -13.8em;
+
+}
+
+.li_conteudo_criado2{
+    border: 2px solid #e07324;
+    border-radius: 12px;
+    padding: 1.5em 1em 3em 0em;
+    margin-left: 30em;
+    width: 21em;
+    height: 12em;
+    background-color: #433a31;
+    margin-top: 0em;
+}
+.li_conteudo_criado2 li{
+    color: #fff;
+    list-style-type: decimal;
+    padding: 0.1em;
+    text-align: justify;
+    font-size: 1.26em;
+    padding-left: 1em;
+}
+
+/* Responsividade para celulares pequenos*/
+@media screen and (max-width: 360px) {
+    .blog_container{
+        margin: -0.1rem 0 0 0;
+        height: 100%;
+    }
+    .blog_bbb img{
+        height: 10rem;
+        width: 10rem;
+        margin: -19rem 0 3.3rem -37.67rem;
+    }
+    .body_blog{
+        width: 17rem;
+        height: 95rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3.5rem;
+        font-size: 1.3rem;
+        width: 10rem;
+    }
+    .info_competencia{
+        margin: 13rem 0 0 1.3rem;
+        width: 14rem;
+        height: 34rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.rem;
+        margin-left: 3.7rem;
+    }
+    .title_post h2{
+        margin-top: -1rem;
+        font-size: 1rem;
+        padding: 0.3rem;
+        width: 5.7rem;
+        margin-left: 3rem;
+        font-weight: normal;
+    }
+    .post_conteudo h2{
+        font-size: 1.2rem;
+        padding: 0.3rem;
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+    }
+    .li_conteudo{
+        width: 10rem;
+        height: 21rem;
+        margin: 0 0 0 0.8rem;
+    }
+    .li_conteudo li{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .title_post_criado h2{
+        font-size: 1rem;
+        margin: 3rem 0 3rem 2.8rem;
+    }
+    .li_conteudo_criado{
+        width: 14rem;
+        margin: 0 0 3rem 1.3rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+/* Responsividade para celulares acima dos pequenos*/
+@media screen and (min-width: 360px) {
+    .blog_container{
+        margin: -0.1rem 0 -2.5rem 0;
+        height: 100%;
+    }
+    .blog_bbb img{
+        height: 10rem;
+        width: 10rem;
+        margin: -19rem 0 3.3rem -36.5rem;
+    }
+    .body_blog{
+        width: 17rem;
+        margin: -4rem 0 0 0;
+        height: 94rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3.5rem;
+        font-size: 1.3rem;
+        width: 10rem;
+    }
+    .info_competencia{
+        margin: 13rem 0 0 1.3rem;
+        width: 14rem;
+        height: 34rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.4rem;
+        margin-left: 3.7rem;
+    }
+    .title_post h2{
+        margin-top: -1rem;
+        font-size: 1rem;
+        padding: 0.3rem;
+        width: 5.7rem;
+        margin-left: 3rem;
+        font-weight: normal;
+    }
+    .post_conteudo h2{
+        font-size: 1.2rem;
+        padding: 0.3rem;
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+    }
+    .li_conteudo{
+        width: 10rem;
+        height: 21rem;
+        margin: 0 0 0 0.8rem;
+    }
+    .li_conteudo li{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .title_post_criado h2{
+        font-size: 1rem;
+        margin: 3rem 0 3rem 2.8rem;
+    }
+    .li_conteudo_criado{
+        width: 14rem;
+        margin: 0 0 3rem 1.3rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para celulares acima do padrão*/
+@media screen and (min-width: 390px) {
+    .body_blog{
+        width: 20rem;
+        margin: -5rem 0 -2.5rem 0;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 4.5rem;
+        font-size: 1.4rem;
+    }
+    .info_competencia{
+        width: 17rem;
+        height: 30rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.8rem;
+        margin: 0 0 2rem 4.8rem;
+    }
+    .title_post h2{
+        font-size: 1.2rem;
+        padding: 0.4rem;
+        width: 6rem;
+        margin-left: 4.2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.3rem;
+        margin-left: 4.3rem;
+        margin-top: 1.5rem;
+    }
+    .li_conteudo{
+        width: 13rem;
+        height: 16rem;
+    }
+    .title_post_criado h2{
+        font-size: 1.1rem;
+        margin: 3rem 0 3rem 3.6rem;
+    }
+    .li_conteudo_criado{
+        width: 16rem;
+        margin: 0 0 3rem 1.7rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para celulares pequenos em landscape*/
+@media screen and (max-width: 740px) and (orientation: landscape){
+    .body_blog{
+        width: 40rem;
+        height: 80rem;
+    }
+    .blog_bbb img{
+        height: 10rem;
+        width: 10rem;
+        margin: 10rem 0 0 -13rem;
+    }
+    .title_blog h2{
+        margin: 3rem 0 0rem 3rem !important;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .info_competencia{
+        width: 25rem;
+        height: 30rem;
+        margin-left: 3rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.9rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.2rem;
+        width: 13rem;
+        margin-left: 2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.5rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        width: 20rem;
+        height: 16rem;
+    }
+    .li_conteudo li{
+        font-size: 1.2rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 0  1rem 0 0!important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 1.1rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .li_conteudo_criado{
+        width: 16rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para celulares pequenos em landscape*/
+@media screen and (min-width: 740px) and (orientation: landscape){
+    .body_blog{
+        width: 40rem;
+        height: 80rem;
+    }
+    .blog_bbb img{
+        height: 10rem;
+        width: 10rem;
+        margin: 10rem 0 0 -13rem;
+    }
+    .title_blog h2{
+        margin: 3rem 0 0rem 3rem !important;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3rem;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .info_competencia{
+        width: 25rem;
+        height: 30rem;
+        margin-left: 3rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.9rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.2rem;
+        width: 13rem;
+        margin-left: 2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.5rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        margin-top: 1rem;
+        width: 20rem;
+        height: 16rem;
+    }
+    .li_conteudo li{
+        font-size: 1.2rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 0  1rem 0 0!important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 1.1rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .li_conteudo_criado{
+        width: 16rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para tablet portrait*/
+@media screen and (min-width: 768px) and (min-height:1024px) and (orientation:portrait){
+    .body_blog{
+        width: 40rem;
+        height: 80rem;
+    }
+    .blog_bbb img{
+        height: 10rem;
+        width: 10rem;
+        margin: 10rem 0 0 -13rem;
+    }
+    .title_blog h2{
+        margin: 3rem 0 0rem 3rem !important;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3rem;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .info_competencia{
+        width: 25rem;
+        height: 30rem;
+        margin-left: 3rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.9rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.2rem;
+        width: 13rem;
+        margin-left: 2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.5rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        width: 20rem;
+        height: 16rem;
+    }
+    .li_conteudo li{
+        font-size: 1.2rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 0  1rem 0 0!important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 1.1rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .li_conteudo_criado{
+        width: 16rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para tablet landscape*/
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:landscape){
+    .body_blog{
+        width: 55rem;
+        height: 80rem;
+    }
+    .blog_bbb img{
+        height: 13rem;
+        width: 13rem;
+        margin: 7rem 0 0 -2rem;
+    }
+    .title_blog h2{
+        margin: 3rem 0 0rem 3rem !important;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3rem;
+        font-size: 1.5rem;
+        width: 13rem;
+    }
+    .info_competencia{
+        width: 35rem;
+        height: 30rem;
+        margin-left: 3rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.9rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.2rem;
+        width: 13rem;
+        margin-left: 2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.5rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        margin-top: 1rem;
+        width: 20rem;
+        height: 16rem;
+    }
+    .li_conteudo li{
+        font-size: 1.2rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 0 7rem 0 7rem!important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 1.1rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .li_conteudo_criado{
+        width: 16rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para desktop menores que 1366px*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) and (max-height: 768px){
+    .body_blog{
+        margin-top: -3rem;
+        width: 65rem;
+        height: 80rem;
+        margin-bottom: 0.5rem;
+    }
+    .blog_bbb img{
+        height: 18rem;
+        width: 18rem;
+        margin: 7rem 0 0 3rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3rem;
+        font-size: 1.8rem ;
+        width: 14rem;
+    }
+    .info_competencia{
+        width: 40rem;
+        height: 33rem;
+        margin-left: 3rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.9rem !important;
+        margin: 0 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.3rem;
+        width: 13rem;
+        margin-left: 2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.7rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        width: 30rem;
+        height: 17rem;
+    }
+    .li_conteudo li{
+        font-size: 1.3rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 0  7rem 0 1.7rem!important;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 1.3rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .li_conteudo_criado{
+        width: 17rem;
+        height: 14rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1.3rem;
+    }
+}
+
+/* Responsividade para desktop mediana*/
+@media screen and (min-width: 1440px){    
+    .body_blog{
+        margin-top: -3rem;
+        width: 65rem;
+        height: 80rem;
+        margin-bottom: 0.5rem;
+    }
+    .blog_bbb img{
+        height: 18rem;
+        width: 18rem;
+        margin: 7rem 0 0 3rem;
+    }
+    .title_blog h2{
+        margin: 2rem 0 2rem 3rem;
+        font-size: 1.8rem ;
+        width: 14rem;
+    }
+    .info_competencia{
+        width: 40rem;
+        height: 33rem;
+        margin-left: 3rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 1.9rem !important;
+        margin: 0 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.3rem;
+        width: 13rem;
+        margin-left: 2rem;
+    }
+    .post_conteudo h2{
+        font-size: 1.7rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        width: 30rem;
+        height: 17rem;
+    }
+    .li_conteudo li{
+        font-size: 1.3rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 0  7rem 0 1.7rem!important;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 1.3rem;
+        margin: 3rem 0 3rem 3rem;
+    }
+
+    .li_conteudo_criado{
+        width: 17rem;
+        height: 14rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1.3rem;
+    }
+}
+/* Responsividade para desktop grande*/
+@media screen and (min-width: 1920px){
+    .body_blog{
+        margin-top: -3rem;
+        width: 100rem;
+        height: 100rem;
+        margin-bottom: 0.5rem;
+    }
+    .blog_bbb img{
+        height: 24rem;
+        width: 24rem;
+        margin: 7rem 0 0 20rem;
+    }
+    .title_blog h2{
+        margin: 4rem 0 2rem 6rem !important;
+        font-size: 2.3rem ;
+        width: 17rem;
+    }
+    .info_competencia{
+        width: 50rem;
+        height: 40rem;
+        margin-left: 6rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 2.3rem !important;
+        margin: 1rem 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.5rem;
+        width: 17rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        padding: 0.6rem;
+    }
+    .post_conteudo h2{
+        font-size: 2.2rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        margin-top: 1.5rem;
+        width: 33rem;
+        height: 20rem;
+    }
+    .li_conteudo li{
+        font-size: 1.7rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 2rem 10rem 0 8rem!important;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 2.3rem;
+        padding: 0.7rem;
+        width: 18rem;
+        margin: 5rem 0 5rem 6rem;
+    }
+
+    .li_conteudo_criado{
+        width: 23rem;
+        height: 18rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1.7rem;
+    }
+}
+
+/* Responsividade para desktop extra grande*/
+@media screen and (min-width: 2560px){
+    .body_blog{
+        margin-top: -3rem;
+        width: 100rem;
+        height: 100rem;
+        margin-bottom: 0.5rem;
+    }
+    .blog_bbb img{
+        height: 24rem;
+        width: 24rem;
+        margin: 7rem 0 0 20rem;
+    }
+    .title_blog h2{
+        margin: 4rem 0 2rem 6rem !important;
+        font-size: 2.3rem ;
+        width: 17rem;
+    }
+    .info_competencia{
+        width: 50rem;
+        height: 40rem;
+        margin-left: 6rem;
+        margin-top: 3.5rem;
+    }
+    .title_competencia h2 {
+        font-size: 2.3rem !important;
+        margin: 1rem 0 2rem 2rem;
+    }
+    .title_post h2{
+        font-size: 1.5rem;
+        width: 17rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        padding: 0.6rem;
+    }
+    .post_conteudo h2{
+        font-size: 2.2rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .li_conteudo{
+        margin-top: 1.5rem;
+        width: 33rem;
+        height: 20rem;
+    }
+    .li_conteudo li{
+        font-size: 1.7rem;
+    }
+    .grid_conteudo_criado{
+        display: grid;
+        padding: 0;
+        margin: 2rem 10rem 0 8rem!important;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .title_post_criado h2{
+        font-size: 2.3rem;
+        padding: 0.7rem;
+        width: 18rem;
+        margin: 5rem 0 5rem 6rem;
+    }
+
+    .li_conteudo_criado{
+        width: 23rem;
+        height: 18rem;
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .li_conteudo_criado li{
+        font-size: 1.7rem;
+    }
+}
