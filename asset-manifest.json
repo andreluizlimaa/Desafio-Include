@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Desafio-Include/static/css/main.c883003f.css",
+    "main.css": "/Desafio-Include/static/css/main.5c07c7fb.css",
     "main.js": "/Desafio-Include/static/js/main.ba7d4193.js",
     "static/media/Logo-bbb.png": "/Desafio-Include/static/media/Logo-bbb.122739019c8426babbb3.png",
     "static/media/perfil_pessoal.png": "/Desafio-Include/static/media/perfil_pessoal.c3a313d1c1e8b4f3e5f9.png",
@@ -16,11 +16,11 @@
     "static/media/brother_7.png": "/Desafio-Include/static/media/brother_7.20ff029611addc1d14c5.png",
     "static/media/brother_5.png": "/Desafio-Include/static/media/brother_5.f991ce3a666fe53abe5d.png",
     "index.html": "/Desafio-Include/index.html",
-    "main.c883003f.css.map": "/Desafio-Include/static/css/main.c883003f.css.map",
+    "main.5c07c7fb.css.map": "/Desafio-Include/static/css/main.5c07c7fb.css.map",
     "main.ba7d4193.js.map": "/Desafio-Include/static/js/main.ba7d4193.js.map"
   },
   "entrypoints": [
-    "static/css/main.c883003f.css",
+    "static/css/main.5c07c7fb.css",
     "static/js/main.ba7d4193.js"
   ]
 }
